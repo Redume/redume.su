@@ -1,0 +1,74 @@
+body {
+    background-color: #131313;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#profile_nickname {
+    font-size: 2.5em;
+    margin-left: 1.5%;
+    margin-top: -5%;
+}
+
+#profile_avatar {
+    width: 9%;
+    border-radius: 13px;
+    margin-top: 1%;
+}
+
+#profile_contact_img {
+    position: absolute;
+    margin-left: 11%;
+    margin-top: 1%;
+}
+
+.project {
+    width: 370px;
+    height: 270px;
+    background-color: #2f3041;
+    border-radius: 13px;
+}
+
+.project .project-img {
+    max-height: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 3px
+}
+
+.project-desc {
+    text-align: center;
+    margin-top: -6px
+}
+
+.project-links {
+    text-align: center;
+    margin-top: 19px
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
